@@ -54,8 +54,8 @@ public void mouseMoved() {
 
  double myX,myY;
 
- myX= mouseX*0.01;
- myY= mouseY*0.01;
+ myX= mouseX*0.1;
+ myY= mouseY*0.1;
  branchAngle=branchAngle+myX-myY;
 
  redraw();
